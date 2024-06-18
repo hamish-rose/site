@@ -1,3 +1,4 @@
+import Image from "next/image"
 
 export default function Home() {
   return (
@@ -16,7 +17,7 @@ export default function Home() {
       <p className="mt-5 line-clamp-3 text-sm leading-6 text-gray-600">Setting up a basic blog using NextJS and Tailwind CSS</p>
     </div>
     <div className="relative mt-8 flex items-center gap-x-4">
-      <img src="https://images.unsplash.com/photo-1569173112611-52a7cd38bea9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80" alt="" className="h-10 w-10 rounded-full bg-gray-50" />
+      <Image src="https://images.unsplash.com/photo-1569173112611-52a7cd38bea9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80" alt="" className="h-10 w-10 rounded-full bg-gray-50" />
       <div className="text-sm leading-6">
         <p className="font-semibold text-gray-900">
           <a href="/">
@@ -27,5 +28,4 @@ export default function Home() {
       </div>
     </div>
   </article>)
-
 }
